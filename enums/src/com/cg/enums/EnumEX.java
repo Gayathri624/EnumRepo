@@ -30,6 +30,7 @@ enum  Size
          case LARGE:
                System.out.println("it is large sized pizza");
                break;
+         
          }
          
     }
@@ -39,7 +40,8 @@ enum  Size
            Scanner  sc = new Scanner(System.in);
            EnumEX obj = new EnumEX(Size.valueOf(sc.next()));
            obj.orderPizza();
-           
+           System.out.println("it is large sized pizza");
+           System.out.println("it is large sized pizza");
    
                 
          }
