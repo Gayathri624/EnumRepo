@@ -40,8 +40,13 @@ enum  Size
            Scanner  sc = new Scanner(System.in);
            EnumEX obj = new EnumEX(Size.valueOf(sc.next()));
            obj.orderPizza();
+<<<<<<< HEAD
            System.out.println("it is large sized pizza");
            System.out.println("it is large sized pizza");
+=======
+           System.out.println("it is Medium sized pizza");
+           
+>>>>>>> branch 'master' of https://github.com/Gayathri624/EnumRepo.git
    
                 
          }
