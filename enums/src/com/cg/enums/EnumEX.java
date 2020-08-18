@@ -40,6 +40,7 @@ enum  Size
            EnumEX obj = new EnumEX(Size.valueOf(sc.next()));
            obj.orderPizza();
            System.out.println("it is Medium sized pizza");
+           System.out.println("it is Medium sized pizza");
            
    
                 
